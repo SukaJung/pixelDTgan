@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="051766f4-a2b9-4790-9e15-880915d837e7" name="Default" comment="pixel domain transfer with gan">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloth_table.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model_table.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/1020.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/1050.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/1080.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/1110.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/1140.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/1170.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/120.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/1200.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/1230.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/1260.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/1290.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/1320.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/1350.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/1380.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/1410.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/1440.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/1470.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/150.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/1500.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/1530.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/1560.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/1590.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/1620.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/1650.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/1680.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/1710.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/1740.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/1770.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/180.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/1800.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/1830.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/1860.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/1890.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/1920.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/1950.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/1980.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/2010.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/2040.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/2070.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/210.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/2100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/2130.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/2160.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/2190.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/2220.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/2250.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/2280.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/270.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/30.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/300.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/330.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/360.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/390.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/420.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/450.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/480.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/510.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/540.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/570.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/60.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/600.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/630.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/660.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/690.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/720.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/750.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/780.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/810.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/840.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/870.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/90.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/900.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/930.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/960.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/990.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/1000.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/1100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/1200.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/1300.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/1400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/150.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/1500.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/1600.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/1700.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/1800.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/1900.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/200.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/2000.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/2100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/2200.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/2300.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/2350.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/2400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/2500.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/2550.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/2600.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/2700.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/2750.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/2800.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/2900.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/2950.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/300.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/3000.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/3100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/3150.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/3200.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/3300.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/3350.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/3400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/3500.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/3550.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/500.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/600.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/700.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/800.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/900.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/pixelDTgan.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataset.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-Copy1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model1/checkpoint" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model2/checkpoint" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/prepare_data.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/train-Copy1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/train2.py" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="dataset.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataset.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="810">
+              <caret line="56" column="36" lean-forward="false" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prepare_data.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prepare_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="4" column="46" lean-forward="false" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="model.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1425">
+              <caret line="96" column="43" lean-forward="false" selection-start-line="96" selection-start-column="43" selection-end-line="96" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="model2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1245">
+              <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+                <marker date="1533530732355" expanded="true" signature="3791:5989" ph="..." />
+                <marker date="1533530732355" expanded="true" signature="3843:5989" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="train.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="562">
+              <caret line="126" column="0" lean-forward="true" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="train2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/train2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1350">
+              <caret line="126" column="35" lean-forward="true" selection-start-line="126" selection-start-column="35" selection-end-line="126" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dcgan.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/gan/dcgan.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1170">
+              <caret line="83" column="28" lean-forward="false" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/model.py" />
+        <option value="$PROJECT_DIR$/train.py" />
+        <option value="$PROJECT_DIR$/prepare_data.py" />
+        <option value="$PROJECT_DIR$/dataset.py" />
+        <option value="$PROJECT_DIR$/train2.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1855" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pixelDTgan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pixelDTgan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$USER_HOME$/gan/dcgan.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.train">
+    <configuration default="false" name="train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pixelDTgan" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pixelDTgan" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pixelDTgan" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pixelDTgan" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pixelDTgan" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pixelDTgan" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pixelDTgan" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pixelDTgan" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Python.train" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.train" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="051766f4-a2b9-4790-9e15-880915d837e7" name="Default" comment="" />
+      <created>1533124004431</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533124004431</updated>
+    </task>
+    <task id="LOCAL-00001" summary="pixel domain transfer with gan">
+      <created>1533738188295</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1533738188295</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18867925" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18867925" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="pixel domain transfer with gan" />
+    <option name="LAST_COMMIT_MESSAGE" value="pixel domain transfer with gan" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="56" column="36" lean-forward="false" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prepare_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="46" lean-forward="false" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1395">
+          <caret line="94" column="43" lean-forward="false" selection-start-line="94" selection-start-column="43" selection-end-line="94" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1245">
+          <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <marker date="1533530732355" expanded="true" signature="3791:5989" ph="..." />
+            <marker date="1533530732355" expanded="true" signature="3843:5989" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="92" column="24" lean-forward="false" selection-start-line="90" selection-start-column="10" selection-end-line="92" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/gan/dcgan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="83" column="28" lean-forward="false" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" column="43" lean-forward="false" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="49" lean-forward="true" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prepare_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/gan/dcgan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="83" column="28" lean-forward="false" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/gan/dcgan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="83" column="28" lean-forward="false" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="56" column="36" lean-forward="false" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prepare_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="46" lean-forward="false" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="96" column="43" lean-forward="false" selection-start-line="96" selection-start-column="43" selection-end-line="96" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1245">
+          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <marker date="1533530732355" expanded="true" signature="3791:5989" ph="..." />
+            <marker date="1533530732355" expanded="true" signature="3843:5989" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="126" column="35" lean-forward="true" selection-start-line="126" selection-start-column="35" selection-end-line="126" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="126" column="0" lean-forward="true" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

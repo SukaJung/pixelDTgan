@@ -1,0 +1,6 @@
+model_checkpoint_path: "model2-9500"
+all_model_checkpoint_paths: "model2-9100"
+all_model_checkpoint_paths: "model2-9200"
+all_model_checkpoint_paths: "model2-9300"
+all_model_checkpoint_paths: "model2-9400"
+all_model_checkpoint_paths: "model2-9500"
