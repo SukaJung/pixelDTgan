@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="051766f4-a2b9-4790-9e15-880915d837e7" name="Default" comment="pixel domain transfer with gan">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloth_table.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model_table.pkl" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model-Copy1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train-Copy1.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <list id="f9bfba20-47ed-4238-b72e-4e03bdd97db8" name="sukajung" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/0.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/1020.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs/1050.png" />
@@ -125,20 +128,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/700.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/800.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outputs2/900.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/pixelDTgan.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataset.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-Copy1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model1/checkpoint" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model2/checkpoint" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/prepare_data.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/train-Copy1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/train2.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -471,6 +460,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="051766f4-a2b9-4790-9e15-880915d837e7" name="Default" comment="" />
+      <changelist id="f9bfba20-47ed-4238-b72e-4e03bdd97db8" name="sukajung" comment="" />
       <created>1533124004431</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -483,14 +473,21 @@
       <option name="project" value="LOCAL" />
       <updated>1533738188295</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="pixel domain transfer with gan">
+      <created>1533738474714</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1533738474714</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18867925" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18867925" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
