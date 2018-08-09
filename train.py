@@ -55,7 +55,6 @@ def scaling_img(img):
     max_ = np.max(img)
     img -= min_
     img /= (max_-min_)
-    img=2*img - 1
     return img
 
 def load_image(name):
@@ -132,17 +131,17 @@ class PixelDTgan():
 
     def train(self,training_epoch=1000000,batch_size=128):
         self.sess.run(tf.global_variables_initializer())
-        path = "./model1/model1-4440.meta"
-        self.loader = tf.train.import_meta_graph('./model1/model1-4440.meta')
+        path = "./model1/model1-8820.meta"
+        self.loader = tf.train.import_meta_graph('./model1/model1-8820.meta')
         self.loader.restore(self.sess,tf.train.latest_checkpoint('./model1'))
         start_point = int(path.split('/')[-1].split('-')[-1].split(".")[0])
         print(start_point)
-        for epoch in range(start_point,training_epoch):
+        for epoch in range(start_point+1,training_epoch):
             
             ass_label, noass_label, img = self.data.getbatch(batch_size)
 
-#             ass_label = scaling_img(np.array(ass_label))
-#             noass_label = scaling_img(np.array(noass_label))
+            ass_label = scaling_img(np.array(ass_label))
+            noass_label = scaling_img(np.array(noass_label))
             img = scaling_img(np.array(img))
 
             D_loss_curr, _ = self.sess.run([self.D_loss,self.D_optimizer],feed_dict={self.X: img, self.Y : ass_label,self.un_Y:noass_label,self.lr:0.0002/3})
@@ -168,7 +167,7 @@ class PixelDTgan():
             if epoch%20== 0:
                 self.saver.save(self.sess, './model1/model1', global_step=epoch)
                 
-    def eval(checkpoint):
+    def eval(self,checkpoint):
         self.sess.run(tf.global_variables_initializer())
         path = "./model1/model1-{}.meta".format(checkpoint)
         self.loader = tf.train.import_meta_graph('./model1/model1-{}.meta'.format(checkpoint))
@@ -178,7 +177,7 @@ class PixelDTgan():
                 
         test_output = self.sess.run(self.G,feed_dict={self.X:test_set})
         fig = testplot(test_set,test_output)
-        plt.savefig('outputs/test/test{}.png'.format(epoch), bbox_inches='tight')
+        plt.savefig('outputs/test/test{}.png'.format(checkpoint), bbox_inches='tight')
         plt.close(fig)
         
         

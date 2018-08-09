@@ -36,20 +36,20 @@ class LookbookDataset():
         ass_label = []
         noass_label = []
         img = []
+        
         for i in range(batchsize):
-            seed = np.random.randint(1, 100000, (1,)).item()
-            np.random.seed((i+1)*seed)
-            r1 = np.random.randint(0, self.cn, (1,)).item()
-            r2 = np.random.randint(0, self.cn, (1,)).item()
-            r1 = int(r1)
-            r2 = int(r2)
+#             seed = np.random.randint(1, 100000, (1,)).item()
+#             np.random.seed((i+1)*seed)
+            r1 = int(np.random.randint(0, self.cn, (1,)).item())
+            r2 = int(np.random.randint(0, self.cn, (1,)).item())
             mn = len(self.model_table[r1])
-            r3 = np.random.randint(0, mn, (1,)).item()
-            r3 = int(r3)
+            r3 = int(np.random.randint(0, mn, (1,)).item())
 
             path1 = self.cloth_table[r1]
             path2 = self.cloth_table[r2]
             path3 = self.model_table[r1][r3]
+            
+            
             img1 = loadImage(self.path + path1)
             img2 = loadImage(self.path + path2)
             img3 = loadImage(self.path + path3)
