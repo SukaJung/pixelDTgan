@@ -2,7 +2,7 @@ import six.moves.cPickle as Pickle
 import os
 
 
-dataset_dir = '/home/suka/eliceproject_dataset/lookbook/data/'
+dataset_dir = '/home/suka/eliceproject_dataset/lookbook4/data/'
 models = []
 clothes = []
 
