@@ -60,10 +60,10 @@ class PixelDTgan():
     def train(self,training_epoch=1000000,batch_size=128):
         self.sess.run(tf.global_variables_initializer())
         start_point = -1
-        # path = "./model/model-9100.meta"
-        # self.loader = tf.train.import_meta_graph('./model/model-9100.meta')
-        # self.loader.restore(self.sess,tf.train.latest_checkpoint('./model'))
-        # start_point = int(path.split('/')[-1].split('-')[-1].split(".")[0])
+        path = "./model/model-6750.meta"
+        self.loader = tf.train.import_meta_graph('./model/model-6750.meta')
+        self.loader.restore(self.sess,tf.train.latest_checkpoint('./model'))
+        start_point = int(path.split('/')[-1].split('-')[-1].split(".")[0])
 
         for epoch in range(start_point+1,training_epoch):
             start_time = time.time()
@@ -72,7 +72,6 @@ class PixelDTgan():
             ass_label = scaling_img(np.array(ass_label))
             noass_label = scaling_img(np.array(noass_label))
             img = scaling_img(np.array(img))
-            img[img==0] = 1
 
             D_loss_curr, _ = self.sess.run([self.D_loss,self.D_optimizer],feed_dict={self.X: img, self.Y : ass_label,self.un_Y:noass_label,self.lr:0.0002/3})
             A_loss_curr, _ = self.sess.run([self.A_loss,self.A_optimizer],feed_dict={self.X: img, self.Y : ass_label,self.un_Y:noass_label,self.lr:0.0002/3})
@@ -83,7 +82,7 @@ class PixelDTgan():
 
             if epoch%50 == 0:
                 test_set = scaling_img(read_testset(self.MODEL))
-                
+                test_set[test_set==0] = 1
                 test_output = self.sess.run(self.G,feed_dict={self.X:test_set})
                 fig = testplot(test_set,test_output)
                 plt.savefig('outputs/test/test{}.png'.format(epoch), bbox_inches='tight')
@@ -105,7 +104,7 @@ def main():
     converter = Converter()
     discriminator = Discriminator()
     discriminatora = DiscriminatorA()
-    data = LookbookDataset(data_dir="/home/suka/eliceproject_dataset/lookbook4/data/",index_dir="/home/suka/PycharmProjects/pixelDTgan/")
+    data = LookbookDataset(data_dir="/home/suka/eliceproject_dataset/lookbook5/data/",index_dir="/home/suka/PycharmProjects/pixelDTgan/")
 
 
     # run
