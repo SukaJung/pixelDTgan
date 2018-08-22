@@ -22,6 +22,7 @@ def loadImage(path,ARRAY=False):
         inImage = cv2.resize(inImage, (int(64 * iw / ih), 64))
     inImage = inImage[0:64, 0:64]
     inImage = inImage[0:64, 0:64]
+    inImage = cv2.resize(inImage,(64,64))
     return inImage
 
 def read_testset(MODEL):
@@ -124,5 +125,3 @@ class LookbookDataset():
             img.append(img3)
         return ass_label, noass_label, img
     
-    def getimage(self):
-        return self.model_table,self.cloth_table

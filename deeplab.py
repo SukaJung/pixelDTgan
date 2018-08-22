@@ -18,7 +18,6 @@ class DeepLabModel(object):
 
   def __init__(self, tarball_path):
     self.graph = tf.Graph()
-
     graph_def = None
     tar_file = tarfile.open(tarball_path)
     for tar_info in tar_file.getmembers():
