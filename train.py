@@ -25,13 +25,16 @@ class PixelDTgan():
         self.lr = tf.placeholder(tf.float32,shape=[])
         
         #input data
-        self.X = tf.placeholder(tf.float32, shape=[None, self.size, self.size, self.channel])
-        self.un_Y = tf.placeholder(tf.float32,shape=[None,self.size,self.size,self.channel])
-        self.Y = tf.placeholder(tf.float32,shape=[None,self.size,self.size,self.channel])
+        self.X = tf.placeholder(tf.float32, shape=[None, self.size, self.size, self.channel],name="Image-Input0")
+        self.un_Y = tf.placeholder(tf.float32,shape=[None,self.size,self.size,self.channel],name="Image-Input1")
+        self.Y = tf.placeholder(tf.float32,shape=[None,self.size,self.size,self.channel],name="Image-Input2")
         
         # nets
         self.G = self.converter(self.X)
-        
+        print(self.G)
+        self.G = tf.identity(self.G, name="Image-Output")
+        print(self.G)
+
         self.D_ass   = self.discriminator(self.Y)
         self.D_noass = self.discriminator(self.un_Y,reuse=True)
         self.D_fake  = self.discriminator(self.G,reuse=True)
@@ -57,29 +60,31 @@ class PixelDTgan():
         gpu_options = tf.GPUOptions(allow_growth=True)
 
         self.sess = tf.Session(config=tf.ConfigProto(gpu_options=gpu_options))
-        print("sess")
 
     def train(self,training_epoch=1000000,batch_size=128):
         self.sess.run(tf.global_variables_initializer())
+
         start_point = -1
-        # path = "./model/model-6750.meta"
-        # self.loader = tf.train.import_meta_graph('./model/model-6750.meta')
-        # self.loader.restore(self.sess,tf.train.latest_checkpoint('./model'))
-        # start_point = int(path.split('/')[-1].split('-')[-1].split(".")[0])
+        model = tf.train.get_checkpoint_state("./model")
+        if model and tf.train.checkpoint_exists(model.model_checkpoint_path):
+            self.loader = tf.train.import_meta_graph(model.model_checkpoint_path+".meta")
+            self.loader.restore(self.sess,model.model_checkpoint_path)
+            start_point = int(model.model_checkpoint_path.split('/')[-1].split('-')[-1].split(".")[0])
         print("Start Training !!")
-        coord = tf.train.Coordinator()
-        threads = tf.train.start_queue_runners(sess=self.sess,coord=coord)
+#         coord = tf.train.Coordinator()
+#         threads = tf.train.start_queue_runners(sess=self.sess,coord=coord)
 
         for epoch in range(start_point+1,training_epoch):
             start_time = time.time()
             # ass_label, noass_label, img = self.data.get(batch_size)
-            ass_label, noass_label, img = self.data.getdata(batch_size)
+            # ass_label, noass_label, img = self.data.getdata(batch_size)
+            ass_label, noass_label, img = self.data.getbatch(batch_size)
             # ass_label, noass_label, img = self.sess.run([ass_label, noass_label, img])
 
 
 #             ass_label = scaling_img(np.array(ass_label))
 #             noass_label = scaling_img(np.array(noass_label))
-#             img = scaling_img(np.array(img))
+            img = scaling_img(np.array(img))
             
             D_loss_curr, _ = self.sess.run([self.D_loss,self.D_optimizer],feed_dict={self.X: img, self.Y : ass_label,self.un_Y:noass_label,self.lr:0.0002/3})
             A_loss_curr, _ = self.sess.run([self.A_loss,self.A_optimizer],feed_dict={self.X: img, self.Y : ass_label,self.un_Y:noass_label,self.lr:0.0002/3})
@@ -104,23 +109,23 @@ class PixelDTgan():
             if epoch%50== 0:
                 self.saver.save(self.sess, './model/model', global_step=epoch)
 
-        coord.request_stop()
+#         coord.request_stop()
 
-        coord.join(threads)
+#         coord.join(threads)
 
 
 def main():
-    # MODEL = DeepLabModel("./deeplabv3_mnv2_pascal_train_aug.tar.gz")
+    #MODEL = DeepLabModel("./deeplabv3_mnv2_pascal_train_aug.tar.gz")
 
-    dataset = Dataset()
+    # dataset = Dataset()
     converter = Converter()
     discriminator = Discriminator()
     discriminatora = DiscriminatorA()
-    data = LookbookDataset(data_dir="/home/suka/eliceproject_dataset/lookbook5/data/",index_dir="/home/suka/PycharmProjects/pixelDTgan/")
+    data = LookbookDataset(data_dir="/home/suka/dataset/lookbook5/data/",index_dir="/home/suka/PycharmProjects/pixelDTgan/")
 
 
     # run
-    pixeldtgan = PixelDTgan(converter, discriminator,discriminatora,dataset)
+    pixeldtgan = PixelDTgan(converter, discriminator,discriminatora,data)
     pixeldtgan.train()
 
 if __name__=="__main__":

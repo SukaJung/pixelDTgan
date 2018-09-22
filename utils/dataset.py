@@ -29,7 +29,6 @@ def read_testset(MODEL):
     batch = []
     for i in range(1,7):
         image = run_segmentation(MODEL,"test/test{}.jpg".format(i))
-
         batch.append(loadImage(image,True))
     return batch
 
